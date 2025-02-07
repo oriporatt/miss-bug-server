@@ -1,0 +1,15 @@
+7.2.2025, 20:30:48 - INFO - pull bugs
+7.2.2025, 20:49:47 - ERROR - Couldn't save bug 123
+7.2.2025, 20:49:47 - ERROR - 
+7.2.2025, 20:56:52 - ERROR - bugService.getById is not a function
+7.2.2025, 20:58:27 - ERROR - 
+7.2.2025, 20:58:27 - ERROR - Couldn't get bug abc1233
+7.2.2025, 21:06:27 - ERROR - 
+7.2.2025, 21:06:27 - ERROR - Couldn't remove car lLjfmI1
+7.2.2025, 21:07:29 - ERROR - Couldn't remove bug lLjfmI1
+7.2.2025, 21:07:29 - ERROR - 
+7.2.2025, 21:29:18 - INFO - Example app listening on port 3000
+7.2.2025, 21:58:28 - INFO - Example app listening on port 3000
+7.2.2025, 22:00:10 - INFO - Example app listening on port 3000
+7.2.2025, 22:18:47 - INFO - Example app listening on port 3000
+7.2.2025, 22:21:06 - INFO - Example app listening on port 3000

@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "ghi789",
+        "title": "Page crashes on checkout",
+        "description": "blabla",
+        "severity": 9,
+        "createdAt": 1738958943591
+    },
+    {
+        "_id": "jkl012",
+        "title": "Images not loading on homepage",
+        "description": "undefined",
+        "severity": 9,
+        "createdAt": 1738959688855
+    },
+    {
+        "_id": "OjZ3fK",
+        "title": "ori_Test_Add_fromURL",
+        "description": "blabla",
+        "severity": 9,
+        "createdAt": 1643108359454
+    },
+    {
+        "_id": "YqaEQL",
+        "title": "ori_Test_Add_fromURL2",
+        "description": "blabla",
+        "severity": 66,
+        "createdAt": 1738959725758
+    }
+]

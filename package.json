@@ -1,0 +1,21 @@
+{
+  "name": "miss-bug-proj",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ignore \"./data\" server.js",
+
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "ori",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security"
+  }
+}
