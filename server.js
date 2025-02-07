@@ -2,6 +2,8 @@ import express from 'express'
 import cors from 'cors'
 import { bugService } from './services/bug.service.js'
 import { loggerService } from './services/logger.service.js'
+import { makePDF } from './services/utils.js'
+
 
 const corsOptions = {
     origin: ['http://127.0.0.1:5173', 'http://localhost:5173'],
@@ -64,6 +66,15 @@ app.get('/api/bug/:bugId', async (req, res) => {
         res.status(400).send(`Couldn't get bug`)
     }
 })
+
+
+
+app.get('/generate-pdf', async (req, res) => {
+    const bugs = await bugService.query()
+    makePDF(res,bugs);  // Pass res to makePDF function
+});
+
+
 
 
 const port = 3000

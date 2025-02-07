@@ -17,6 +17,7 @@ async function query() {
         loggerService.error(`Couldn't get cars`)
         throw err
     }
+
 }
 
 
@@ -30,6 +31,7 @@ async function getById(bugId) {
         loggerService.error(`Couldn't get bug ${bugId}`)
         throw err
     }
+    
 }
 
 
