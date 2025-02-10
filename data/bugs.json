@@ -2,36 +2,41 @@
     {
         "_id": "ghi789",
         "title": "Page crashes on checkout",
-        "description": "blabla",
+        "description": "The checkout page crashes unexpectedly, preventing users from completing their purchases.",
         "severity": 9,
-        "createdAt": 1738958943591
+        "createdAt": 1738958943591,
+        "labels": ["critical", "need-CR", "dev-branch"]
     },
     {
         "_id": "jkl012",
         "title": "Images not loading on homepage",
-        "description": "undefined",
+        "description": "Product and banner images fail to load on the homepage, affecting user experience.",
         "severity": 8,
-        "createdAt": 1738964048302
+        "createdAt": 1738964048302,
+        "labels": ["need-CR", "UI-bug", "dev-branch"]
     },
     {
         "_id": "OjZ3fK",
         "title": "ori_Test_Add_fromURL",
-        "description": "blabla",
+        "description": "Testing issue related to adding items from a URL, causing inconsistencies in saved data.",
         "severity": 9,
-        "createdAt": 1643108359454
+        "createdAt": 1643108359454,
+        "labels": ["critical", "QA", "dev-branch"]
     },
     {
         "_id": "dyvVZZ",
         "title": "shani",
-        "description": "NaN",
+        "description": "Issue reported with no detailed context. Needs further investigation.",
         "severity": 9,
-        "createdAt": 1738962014428
+        "createdAt": 1738962014428,
+        "labels": ["need-CR", "QA", "triage"]
     },
     {
         "_id": "cp2Ifx",
         "title": "Ori New",
-        "description": "balblablabalbal",
+        "description": "A new issue related to Ori module. Unexpected behavior observed.",
         "severity": 234,
-        "createdAt": 1738964370094
+        "createdAt": 1738964370094,
+        "labels": ["critical", "QA", "UI-bug"]
     }
 ]
