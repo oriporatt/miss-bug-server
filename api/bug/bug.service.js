@@ -12,7 +12,7 @@ export const bugService = {
     remove,
 }
 
-async function query(filterBy) { 
+async function query(filterBy={}) { 
     let bugsToDisplay = bugs
     try {
         if (filterBy.title) {
