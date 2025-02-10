@@ -1,5 +1,5 @@
-import { loggerService } from "./logger.service.js"
-import { makeId, readJsonFile, writeJsonFile } from "./utils.js"
+import { loggerService } from "../../services/logger.service.js"
+import { makeId, readJsonFile, writeJsonFile } from "../../services/utils.js"
 
 const bugs = readJsonFile('./data/bugs.json')
 
@@ -10,11 +10,20 @@ export const bugService = {
     remove,
 }
 
-async function query() { 
+async function query(filterBy) { 
+    let bugsToDisplay = bugs
     try {
-        return bugs
+        if (filterBy.title) {
+            const regExp = new RegExp(filterBy.title, 'i')
+            bugsToDisplay = bugsToDisplay.filter(bug => regExp.test(bug.title))
+        }
+        if (filterBy.minSeverity) {
+            bugsToDisplay = bugsToDisplay.filter(bug => bug.severity >= filterBy.minSeverity)
+        }
+        return bugsToDisplay
+
     } catch (err) {
-        loggerService.error(`Couldn't get cars`)
+        loggerService.error(`Couldn't get bugs`)
         throw err
     }
 

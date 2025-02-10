@@ -1,8 +1,13 @@
 import express from 'express'
 import cors from 'cors'
-import { bugService } from './services/bug.service.js'
+import path from 'path'
+import { bugService } from './api/bug/bug.service.js' //delete later
 import { loggerService } from './services/logger.service.js'
 import { makePDF } from './services/utils.js'
+
+import { bugRoutes } from './api/bug/bug.routes.js'
+
+const app = express()
 
 
 const corsOptions = {
@@ -11,61 +16,52 @@ const corsOptions = {
 }
 
 
-
-const app = express()
 app.use(express.static('public'))
 app.use(cors(corsOptions))
+app.use(express.json())
 
 
-// List
-app.get('/api/bug', async (req, res) => {
-    try {
-        const bugs = await bugService.query()
-    	res.send(bugs)
-    } catch (err) {
-        loggerService.error(err.message)
-        res.status(400).send(`Couldn't get bugs`)
-    }
-})
+app.use('/api/bug', bugRoutes)
 
 
-//Save 
-app.get('/api/bug/save', async(req,res)=>{
-    const { _id, title,description, severity,createdAt } = req.query
-    const bugToSave = { _id, title,description, severity:+severity, createdAt:+createdAt }
-    try {
-        const savedBug = await bugService.save(bugToSave)
-    	res.send(savedBug)
-    } catch (err) {
-        loggerService.error(err.message)
-        res.status(400).send(`Couldn't save bug`)
-    }
 
-})
-// Delete
-app.get('/api/bug/:bugId/remove', async (req, res) => {
-    const { bugId } = req.params
-    try {
-        await bugService.remove(bugId)
-        res.send('OK')
-    } catch (err) {
-        loggerService.error(err.message)
-        res.status(400).send(`Couldn't remove bug`)
-    }
-})
+// //Save 
+// app.get('/api/bug/save', async(req,res)=>{
+//     const { _id, title,description, severity,createdAt } = req.query
+//     const bugToSave = { _id, title,description, severity:+severity, createdAt:+createdAt }
+//     try {
+//         const savedBug = await bugService.save(bugToSave)
+//     	res.send(savedBug)
+//     } catch (err) {
+//         loggerService.error(err.message)
+//         res.status(400).send(`Couldn't save bug`)
+//     }
 
-// Read
-app.get('/api/bug/:bugId', async (req, res) => {
-    const { bugId } = req.params
+// })
+// // Delete
+// app.get('/api/bug/:bugId/remove', async (req, res) => {
+//     const { bugId } = req.params
+//     try {
+//         await bugService.remove(bugId)
+//         res.send('OK')
+//     } catch (err) {
+//         loggerService.error(err.message)
+//         res.status(400).send(`Couldn't remove bug`)
+//     }
+// })
 
-    try {
-        const bug = await bugService.getById(bugId)
-        res.send(bug)
-    } catch (err) {
-        loggerService.error(err.message)
-        res.status(400).send(`Couldn't get bug`)
-    }
-})
+// // Read
+// app.get('/api/bug/:bugId', async (req, res) => {
+//     const { bugId } = req.params
+
+//     try {
+//         const bug = await bugService.getById(bugId)
+//         res.send(bug)
+//     } catch (err) {
+//         loggerService.error(err.message)
+//         res.status(400).send(`Couldn't get bug`)
+//     }
+// })
 
 
 
