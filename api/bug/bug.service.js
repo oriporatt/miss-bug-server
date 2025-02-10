@@ -23,10 +23,7 @@ async function query(filterBy) {
             bugsToDisplay = bugsToDisplay.filter(bug => bug.severity >= filterBy.minSeverity)
         }
 
-        if ('pageIdx' in filterBy) {
-            const startIdx = filterBy.pageIdx * PAGE_SIZE
-            bugsToDisplay = bugsToDisplay.slice(startIdx, startIdx + PAGE_SIZE)
-        }
+
         if (filterBy.sortBy){  
             const sortField=  filterBy.sortBy
             const sortDirection=  +filterBy.sortDirection
@@ -41,7 +38,11 @@ async function query(filterBy) {
                     return (val1 - val2) * sortDirection
                 }
             })
-                    
+            
+            if ('pageIdx' in filterBy) {
+                const startIdx = filterBy.pageIdx * PAGE_SIZE
+                bugsToDisplay = bugsToDisplay.slice(startIdx, startIdx + PAGE_SIZE)
+            }
 
         }
 
