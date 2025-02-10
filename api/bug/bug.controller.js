@@ -3,12 +3,15 @@ import { loggerService } from "../../services/logger.service.js"
 import { bugService } from "./bug.service.js"
 
 export async function getBugs (req, res) {
-    const { title, minSeverity } = req.query
+    const { title, minSeverity ,pageIdx,sortBy,sortDirection} = req.query
     
     const filterBy = {
         title,
         minSeverity: +minSeverity,
     }
+    if (pageIdx) filterBy.pageIdx = +pageIdx
+    if (sortBy) filterBy.sortBy = sortBy
+    if (sortDirection) filterBy.sortDirection = +sortDirection
     try {
         const bugs = await bugService.query(filterBy)
         res.send(bugs)
