@@ -1,6 +1,6 @@
 import express from 'express'
 import { getUser, getUsers, deleteUser, updateUser,addUser } from './user.controller.js'
-//test
+
 const router = express.Router()
 
 router.get('/', getUsers)
