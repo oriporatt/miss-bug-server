@@ -139,3 +139,28 @@
 10.2.2025, 14:08:53 - INFO - Example app listening on port 3000
 10.2.2025, 14:10:04 - INFO - Example app listening on port 3000
 10.2.2025, 14:12:04 - INFO - Example app listening on port 3000
+10.2.2025, 15:14:27 - INFO - Example app listening on port 3000
+10.2.2025, 15:19:37 - ERROR - 
+10.2.2025, 15:19:37 - ERROR - Couldn't save bug u102
+10.2.2025, 15:19:51 - ERROR - Failed to update user | TypeError: userService.update is not a function
+10.2.2025, 15:20:50 - INFO - Example app listening on port 3000
+10.2.2025, 15:21:07 - ERROR - Failed to update user | TypeError: userService.update is not a function
+10.2.2025, 15:21:33 - INFO - Example app listening on port 3000
+10.2.2025, 15:21:34 - ERROR - Failed to update user | TypeError: userService.update is not a function
+10.2.2025, 15:25:38 - INFO - Example app listening on port 3000
+10.2.2025, 15:25:43 - ERROR - Failed to update user | TypeError: userService.update is not a function
+10.2.2025, 15:26:22 - INFO - Example app listening on port 3000
+10.2.2025, 15:29:39 - INFO - Example app listening on port 3000
+10.2.2025, 15:30:24 - INFO - Example app listening on port 3000
+10.2.2025, 15:31:59 - INFO - Example app listening on port 3000
+10.2.2025, 15:32:18 - ERROR - Failed to update user | ReferenceError: loggerService is not defined
+10.2.2025, 15:32:53 - INFO - Example app listening on port 3000
+10.2.2025, 15:32:59 - ERROR - Couldn't save user u1022
+10.2.2025, 15:32:59 - ERROR - Failed to update user | Bad user id u1022
+10.2.2025, 15:34:08 - INFO - Example app listening on port 3000
+10.2.2025, 15:36:10 - INFO - Example app listening on port 3000
+10.2.2025, 15:36:23 - INFO - Example app listening on port 3000
+10.2.2025, 15:37:58 - INFO - Example app listening on port 3000
+10.2.2025, 15:40:42 - ERROR - Failed to delete user | ReferenceError: buuserIdgId is not defined
+10.2.2025, 15:43:11 - INFO - Example app listening on port 3000
+10.2.2025, 15:43:47 - INFO - Example app listening on port 3000

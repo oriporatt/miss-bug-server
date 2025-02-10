@@ -6,6 +6,7 @@ import { loggerService } from './services/logger.service.js'
 import { makePDF } from './services/utils.js'
 
 import { bugRoutes } from './api/bug/bug.routes.js'
+import { userRoutes } from './api/user/user.routes.js'
 
 const app = express()
 
@@ -22,6 +23,8 @@ app.use(express.json())
 
 
 app.use('/api/bug', bugRoutes)
+app.use('/api/user', userRoutes)
+
 
 
 app.get('/generate-pdf', async (req, res) => {
