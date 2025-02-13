@@ -23,12 +23,25 @@ export async function getBugs (req, res) {
 
 export async function getBug (req, res) {
     const { bugId } = req.params
+    //* ------------------- Cookies -------------------
+    let spamUser=_checkCookieRate(req,res,bugId)
+
+
+    
+    // continue to regular function
     try {
-        const bug = await bugService.getById(bugId)
-        res.send(bug)
+        if (!spamUser){
+            const bug = await bugService.getById(bugId)
+            res.send(bug)
+        }else{
+            throw new Error("Too many requests. Please wait.");
+        }
+
     } catch (err) {
-        loggerService.error(err.message)
-        res.status(400).send(`Couldn't get bug`)
+        if (err.message==="Too many requests. Please wait.") {
+            return res.status(429).send("Wait a bit");
+        }
+        res.status(400).send("Couldn't get bug");
     }
 
  }
@@ -67,4 +80,23 @@ export async function removeBug(req, res) {
         res.status(400).send(`Couldn't remove bug`)
     }
 
+}
+
+function _checkCookieRate(req,res,bugId){
+    let newVisitBugs = []
+    let spamUserCheck =false
+    if (req.cookies.visitBugs){
+        newVisitBugs = JSON.parse(req.cookies.visitBugs)        
+    }
+    if (!newVisitBugs.includes(bugId)){
+        if (newVisitBugs.length<3){
+            newVisitBugs.push(bugId)
+        }else{
+            spamUserCheck=true 
+        }
+    }
+    const JSONnewVisitBugs=JSON.stringify(newVisitBugs)
+    loggerService.info('newVisitBugs', JSONnewVisitBugs)
+    res.cookie('visitBugs', JSONnewVisitBugs, { maxAge: 1000 *7 })
+    return spamUserCheck
 }

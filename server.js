@@ -1,4 +1,6 @@
 import express from 'express'
+import cookieParser from 'cookie-parser'
+
 import cors from 'cors'
 import path from 'path'
 import { bugService } from './api/bug/bug.service.js' 
@@ -16,14 +18,18 @@ const corsOptions = {
     credentials: true
 }
 
+//* App Configuration
 
 app.use(express.static('public'))
 app.use(cors(corsOptions))
 app.use(express.json())
+app.use(cookieParser())
 
 
 app.use('/api/bug', bugRoutes)
 app.use('/api/user', userRoutes)
+
+
 
 
 
