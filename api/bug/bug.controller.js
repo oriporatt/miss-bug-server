@@ -16,7 +16,6 @@ export async function getBugs (req, res) {
         const bugs = await bugService.query(filterBy)
         res.send(bugs)
     } catch (err) {
-        loggerService.error(err.message)
         res.status(400).send(`Couldn't get bugs`)
     }
 }

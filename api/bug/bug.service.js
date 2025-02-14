@@ -13,7 +13,7 @@ export const bugService = {
 }
 
 async function query(filterBy={}) { 
-    let bugsToDisplay = bugs
+    let bugsToDisplay = [...bugs]
     try {
         if (filterBy.title) {
             const regExp = new RegExp(filterBy.title, 'i')
