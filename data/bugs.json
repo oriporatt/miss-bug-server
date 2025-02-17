@@ -98,7 +98,7 @@
     {
         "title": "QQQ Page crashes on checkout",
         "description": "The checkout page crashes unexpectedly, preventing users from completing their purchases.",
-        "severity": 8,
+        "severity": 9,
         "createdAt": 1739176534083,
         "_id": "UBQlLP",
         "creator": {

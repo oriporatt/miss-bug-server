@@ -77,7 +77,8 @@ async function save(bugToSave,loggedinUser) {
 
             const idx = bugs.findIndex(bug => bug._id === bugToSave._id)
             if (idx === -1) throw `Bad bug id ${bugToSave._id}`
-            bugs.splice(idx, 1, bugToSave)
+            bugs[idx] = { ...bugs[idx], ...bugToSave }
+            
         } else {
             bugToSave._id = makeId()
             bugToSave.creator = {

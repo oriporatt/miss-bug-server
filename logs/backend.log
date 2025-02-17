@@ -444,3 +444,36 @@
 17.2.2025, 15:47:21 - ERROR - ori1
 17.2.2025, 15:47:21 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
 17.2.2025, 15:47:33 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:52:36 - INFO - Example app listening on port 3000
+17.2.2025, 15:52:42 - INFO - Example app listening on port 3000
+17.2.2025, 15:53:06 - INFO - Example app listening on port 3000
+17.2.2025, 15:55:45 - INFO - Example app listening on port 3000
+17.2.2025, 15:56:03 - ERROR - Couldn't save bug XbagXK
+17.2.2025, 15:56:03 - ERROR - 
+17.2.2025, 15:56:19 - ERROR - Couldn't save bug UBQlLP
+17.2.2025, 15:56:19 - ERROR - 
+17.2.2025, 15:57:03 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:57:19 - INFO - Example app listening on port 3000
+17.2.2025, 15:57:38 - ERROR - ori1
+17.2.2025, 15:57:38 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:57:51 - ERROR - Couldn't save bug UBQlLP
+17.2.2025, 15:57:51 - ERROR - 
+17.2.2025, 16:01:08 - INFO - Example app listening on port 3000
+17.2.2025, 16:01:17 - INFO - Example app listening on port 3000
+17.2.2025, 16:01:21 - ERROR - Couldn't save bug UBQlLP
+17.2.2025, 16:01:21 - ERROR - 
+17.2.2025, 16:02:22 - INFO - Example app listening on port 3000
+17.2.2025, 16:02:25 - ERROR - Couldn't save bug UBQlLP
+17.2.2025, 16:02:25 - ERROR - 
+17.2.2025, 16:04:22 - INFO - Example app listening on port 3000
+17.2.2025, 16:04:44 - INFO - Example app listening on port 3000
+17.2.2025, 16:04:46 - ERROR - Couldn't save bug UBQlLP
+17.2.2025, 16:04:46 - ERROR - 
+17.2.2025, 16:05:32 - INFO - Example app listening on port 3000
+17.2.2025, 16:06:09 - INFO - Example app listening on port 3000
+17.2.2025, 16:06:19 - INFO - Example app listening on port 3000
+17.2.2025, 16:06:43 - ERROR - Couldn't save bug UBQlLP
+17.2.2025, 16:06:43 - ERROR - 
+17.2.2025, 16:07:06 - ERROR - ori test [object Object]
+17.2.2025, 16:07:16 - ERROR - ori test [object Object]
+17.2.2025, 16:07:26 - INFO - Example app listening on port 3000

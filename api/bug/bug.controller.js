@@ -47,7 +47,6 @@ export async function getBug (req, res) {
 
  export async function addBug(req, res) {
     const loggedinUser = req.loggedinUser
-    loggerService.error(loggedinUser)
 
     const { title,description, severity,createdAt,labels } = req.body
     const bugToSave = { title,description, severity:+severity, createdAt:+createdAt,labels }
@@ -61,10 +60,12 @@ export async function getBug (req, res) {
  }
 
  export async function updateBug(req, res) {
-    const { _id, title,description, severity,createdAt,labels } = req.body
-    const bugToSave = { _id, title,description, severity:+severity, createdAt:+createdAt,labels }
+    const loggedinUser = req.loggedinUser
+
+    const { _id, title,description, severity,createdAt,labels,creator } = req.body
+    const bugToSave = { _id, title,description, severity:+severity, createdAt:+createdAt,labels,creator }
     try {
-        const savedBug = await bugService.save(bugToSave)
+        const savedBug = await bugService.save(bugToSave,loggedinUser)
     	res.send(savedBug)
     } catch (err) {
         loggerService.error(err.message)
