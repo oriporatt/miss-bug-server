@@ -103,3 +103,14 @@ function _checkCookieRate(req,res,bugId){
     res.cookie('visitBugs', JSONnewVisitBugs, { maxAge: 1000 *7 })
     return spamUserCheck
 }
+
+export async function getUserBugs (req, res) {
+    const { userId} = req.params
+    try {
+        const bugs = await bugService.query()
+        const userBugs =bugs.filter(bug=> bug.creator._id===userId)
+        res.send(userBugs)
+    } catch (err) {
+        res.status(400).send(`Couldn't get user bugs`)
+    }
+}

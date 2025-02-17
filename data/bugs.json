@@ -48,22 +48,6 @@
         }
     },
     {
-        "_id": "cp2Ifx",
-        "title": "Ori New",
-        "description": "A new issue related to Ori module. Unexpected behavior observed.",
-        "severity": 234,
-        "createdAt": 1738964370094,
-        "labels": [
-            "critical",
-            "QA",
-            "UI-bug"
-        ],
-        "creator": {
-            "_id": "u101",
-            "fullname": "Ori Porat"
-        }
-    },
-    {
         "title": "vpn not working",
         "description": "No vpn working",
         "severity": 7,

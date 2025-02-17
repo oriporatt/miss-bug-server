@@ -477,3 +477,120 @@
 17.2.2025, 16:07:06 - ERROR - ori test [object Object]
 17.2.2025, 16:07:16 - ERROR - ori test [object Object]
 17.2.2025, 16:07:26 - INFO - Example app listening on port 3000
+17.2.2025, 17:56:51 - INFO - Example app listening on port 3000
+17.2.2025, 18:02:32 - INFO - Example app listening on port 3000
+17.2.2025, 18:06:06 - ERROR - ori1
+17.2.2025, 18:06:06 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:06:17 - ERROR - ori1
+17.2.2025, 18:06:17 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:06:24 - ERROR - ori2
+17.2.2025, 18:06:24 - INFO - User login:  | {"_id":"u102","fullname":"Ori Porat","score":102}
+17.2.2025, 18:06:33 - ERROR - ori1
+17.2.2025, 18:06:33 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:09:18 - ERROR - ori1
+17.2.2025, 18:09:18 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:10:43 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:10:43 - ERROR - ori1
+17.2.2025, 18:16:11 - ERROR - ori1
+17.2.2025, 18:16:11 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:16:32 - DEBUG - auth.service - signup with username: ori porat, fullname: ori9
+17.2.2025, 18:16:32 - ERROR - ori porat
+17.2.2025, 18:16:32 - DEBUG - auth.route - new account created: {"username":"ori porat","password":"$2b$10$SZNOd8swvvfUjAymPPmJOO5Q4Xn2GxU8z2RwuZaOH0JcbFK56jwWa","fullname":"ori9","_id":"7G7lmQ"}
+17.2.2025, 18:16:32 - ERROR - ori porat
+17.2.2025, 18:16:32 - INFO - User signup: | {"_id":"7G7lmQ","fullname":"ori9"}
+17.2.2025, 18:17:20 - DEBUG - auth.service - signup with username: admin, fullname: admin
+17.2.2025, 18:17:20 - ERROR - admin
+17.2.2025, 18:17:20 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$deyqW/7EX9bmO1SUQ9/ZyOtAvA/vGEjaoH7XnUZwC3IATgDhrsohm","fullname":"admin","_id":"J7PqCx"}
+17.2.2025, 18:17:20 - ERROR - admin
+17.2.2025, 18:17:20 - INFO - User signup: | {"_id":"J7PqCx","fullname":"admin"}
+17.2.2025, 18:17:55 - ERROR - admin
+17.2.2025, 18:17:55 - INFO - User login:  | {"_id":"J7PqCx","fullname":"admin"}
+17.2.2025, 18:22:13 - ERROR - ori1
+17.2.2025, 18:22:13 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:27:16 - INFO - Example app listening on port 3000
+17.2.2025, 18:29:01 - INFO - Example app listening on port 3000
+17.2.2025, 18:29:14 - INFO - Example app listening on port 3000
+17.2.2025, 18:29:28 - ERROR - admin
+17.2.2025, 18:29:28 - ERROR - Failed to Login NaN
+17.2.2025, 18:33:32 - DEBUG - auth.service - signup with username: admin, fullname: admin
+17.2.2025, 18:33:32 - ERROR - admin
+17.2.2025, 18:33:32 - ERROR - Failed to signup Username already taken
+17.2.2025, 18:34:04 - INFO - Example app listening on port 3000
+17.2.2025, 18:34:07 - DEBUG - auth.service - signup with username: admin, fullname: admin
+17.2.2025, 18:34:07 - ERROR - admin
+17.2.2025, 18:34:08 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$n61u.GqyPjq9OUsQuYAU4.7LKFQdaMVPUpqfYL9jhZFKrfA8yRKgK","fullname":"admin","_id":"yGIvf6"}
+17.2.2025, 18:34:08 - ERROR - admin
+17.2.2025, 18:34:08 - INFO - User signup: | {"_id":"yGIvf6","fullname":"admin"}
+17.2.2025, 18:34:23 - ERROR - ori1
+17.2.2025, 18:34:23 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:34:31 - ERROR - admin
+17.2.2025, 18:34:31 - ERROR - Failed to Login NaN
+17.2.2025, 18:34:56 - ERROR - ori2
+17.2.2025, 18:34:56 - INFO - User login:  | {"_id":"u102","fullname":"Ori Porat","score":102}
+17.2.2025, 18:35:10 - ERROR - admin
+17.2.2025, 18:35:10 - ERROR - Failed to Login NaN
+17.2.2025, 18:37:48 - INFO - Example app listening on port 3000
+17.2.2025, 18:37:57 - ERROR - admin
+17.2.2025, 18:37:58 - INFO - false
+17.2.2025, 18:37:58 - ERROR - Failed to Login NaN
+17.2.2025, 18:38:10 - ERROR - ori1
+17.2.2025, 18:38:11 - INFO - true
+17.2.2025, 18:38:11 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:38:28 - INFO - Example app listening on port 3000
+17.2.2025, 18:38:38 - ERROR - ad1
+17.2.2025, 18:38:38 - ERROR - Failed to Login NaN
+17.2.2025, 18:40:00 - INFO - Example app listening on port 3000
+17.2.2025, 18:41:43 - ERROR - ori1
+17.2.2025, 18:41:43 - INFO - ori1
+17.2.2025, 18:41:43 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:41:52 - ERROR - admin
+17.2.2025, 18:41:52 - ERROR - Failed to Login NaN
+17.2.2025, 18:43:20 - ERROR - ori9
+17.2.2025, 18:43:20 - ERROR - Failed to Login NaN
+17.2.2025, 18:43:34 - ERROR - ori1
+17.2.2025, 18:43:34 - INFO - ori1
+17.2.2025, 18:43:34 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:46:42 - INFO - Example app listening on port 3000
+17.2.2025, 18:46:57 - ERROR - ori1
+17.2.2025, 18:46:57 - INFO - ori1
+17.2.2025, 18:46:57 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 18:48:45 - INFO - Example app listening on port 3000
+17.2.2025, 18:49:07 - INFO - Example app listening on port 3000
+17.2.2025, 18:49:25 - DEBUG - auth.service - signup with username: admin, fullname: admin
+17.2.2025, 18:49:25 - ERROR - admin
+17.2.2025, 18:49:25 - ERROR - admin
+17.2.2025, 18:49:25 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$XxLa6c52DRNqdnhyyqn63eL0rE/q/QhxVVJsRBpJjf3ogIAfeonNG","fullname":"admin","_id":"jbzIdq"}
+17.2.2025, 18:49:25 - INFO - admin
+17.2.2025, 18:49:25 - INFO - User signup: | {"_id":"jbzIdq","fullname":"admin"}
+17.2.2025, 18:49:44 - INFO - Example app listening on port 3000
+17.2.2025, 18:49:50 - ERROR - admin
+17.2.2025, 18:49:50 - INFO - User login:  | {"_id":"jbzIdq","fullname":"admin"}
+17.2.2025, 18:52:11 - ERROR - admin
+17.2.2025, 18:52:11 - INFO - User login:  | {"_id":"jbzIdq","fullname":"admin"}
+17.2.2025, 18:52:39 - DEBUG - auth.service - signup with username: astarlul, fullname: astra1
+17.2.2025, 18:52:39 - ERROR - astarlul
+17.2.2025, 18:52:40 - DEBUG - auth.route - new account created: {"username":"astarlul","password":"$2b$10$mQmly2MSn0fW6AbJ5dN1wO2kWwTeKHaEiCQAcugBrESvfarfo4iGu","fullname":"astra1","_id":"foCxLc"}
+17.2.2025, 18:52:40 - ERROR - astarlul
+17.2.2025, 18:52:40 - INFO - User signup: | {"_id":"foCxLc","fullname":"astra1"}
+17.2.2025, 18:53:05 - ERROR - astra1
+17.2.2025, 18:53:05 - ERROR - Failed to Login NaN
+17.2.2025, 18:53:45 - INFO - Example app listening on port 3000
+17.2.2025, 18:54:07 - DEBUG - auth.service - signup with username: astra1, fullname: astra astraluli
+17.2.2025, 18:54:07 - ERROR - astra1
+17.2.2025, 18:54:07 - DEBUG - auth.route - new account created: {"username":"astra1","password":"$2b$10$vjWFp2Sd0hwvjVmJCIQuU.J6SeUvSWipzuP09/CO0fcBsIJnhP0uq","fullname":"astra astraluli","_id":"rFmy7S"}
+17.2.2025, 18:54:07 - ERROR - astra1
+17.2.2025, 18:54:07 - INFO - User signup: | {"_id":"rFmy7S","fullname":"astra astraluli"}
+17.2.2025, 18:54:19 - ERROR - astra1
+17.2.2025, 18:54:19 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli"}
+17.2.2025, 19:34:13 - ERROR - astra1
+17.2.2025, 19:34:13 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli"}
+17.2.2025, 19:37:37 - ERROR - Couldn't get user undefined
+17.2.2025, 19:37:37 - ERROR - Failed to get user | Bad user id undefined
+17.2.2025, 19:49:26 - INFO - Example app listening on port 3000
+17.2.2025, 19:51:37 - INFO - Example app listening on port 3000
+17.2.2025, 19:53:29 - INFO - Example app listening on port 3000
+17.2.2025, 19:55:40 - INFO - newVisitBugs | ["UBQlLP"]
+17.2.2025, 19:56:06 - INFO - Example app listening on port 3000
+17.2.2025, 19:56:51 - INFO - Example app listening on port 3000
+17.2.2025, 19:57:11 - INFO - Example app listening on port 3000
+17.2.2025, 19:57:30 - INFO - Example app listening on port 3000

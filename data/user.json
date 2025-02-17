@@ -1,12 +1,10 @@
 [
-
     {
         "username": "ori1",
         "password": "$2b$10$fGisUq/x4fV5aBwaLL4Wy.sjF5KxLCVqdS5Bd.LmTjGF4n/JB9eZK",
         "fullname": "Ori Porat",
         "_id": "u101",
         "score": 101
-
     },
     {
         "username": "ori2",
@@ -14,7 +12,6 @@
         "fullname": "Ori Porat",
         "_id": "u102",
         "score": 102
-
     },
     {
         "username": "ori3",
@@ -22,6 +19,17 @@
         "fullname": "Ori Porat",
         "_id": "u103",
         "score": 103
-
+    },
+    {
+        "username": "admin",
+        "password": "$2b$10$XxLa6c52DRNqdnhyyqn63eL0rE/q/QhxVVJsRBpJjf3ogIAfeonNG",
+        "fullname": "admin",
+        "_id": "jbzIdq"
+    },
+    {
+        "username": "astra1",
+        "password": "$2b$10$vjWFp2Sd0hwvjVmJCIQuU.J6SeUvSWipzuP09/CO0fcBsIJnhP0uq",
+        "fullname": "astra astraluli",
+        "_id": "rFmy7S"
     }
 ]

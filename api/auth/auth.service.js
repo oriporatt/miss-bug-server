@@ -37,9 +37,9 @@ async function login(username, password) {
     var user = await userService.getByUsername(username)
     if (!user) throw 'Unknown username'
 
-    // //! un-comment for real login
-    // const match = await bcrypt.compare(password, user.password)
-    // if (!match) throw 'Invalid username or password'
+    //! un-comment for real login
+    const match = await bcrypt.compare(password, user.password)
+    if (!match) throw 'Invalid username or password'
 
     //* Removing passwords and personal data
     const miniUser = {
