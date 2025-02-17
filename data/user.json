@@ -1,35 +1,47 @@
 [
     {
+        "username": "admin",
+        "password": "$2b$10$XxLa6c52DRNqdnhyyqn63eL0rE/q/QhxVVJsRBpJjf3ogIAfeonNG",
+        "fullname": "admin",
+        "_id": "_admin",
+        "isAdmin": true
+    },
+    {
         "username": "ori1",
         "password": "$2b$10$fGisUq/x4fV5aBwaLL4Wy.sjF5KxLCVqdS5Bd.LmTjGF4n/JB9eZK",
         "fullname": "Ori Porat",
         "_id": "u101",
-        "score": 101
+        "score": 101,
+        "isAdmin": false
     },
     {
         "username": "ori2",
         "password": "$2b$10$W494gfuu0BYgtLZdO6ZH4u6lNjcFTuSpcRgF61OTW9CMVsu7aRsAa",
         "fullname": "Ori Porat",
         "_id": "u102",
-        "score": 102
+        "score": 102,
+        "isAdmin": false
     },
     {
         "username": "ori3",
         "password": "$2b$10$eMhhb.ehdU/6qwD2qNOUAeH5kb5MwCt5diGo4JNlOXjG7eGvmOH7u",
         "fullname": "Ori Porat",
         "_id": "u103",
-        "score": 103
-    },
-    {
-        "username": "admin",
-        "password": "$2b$10$XxLa6c52DRNqdnhyyqn63eL0rE/q/QhxVVJsRBpJjf3ogIAfeonNG",
-        "fullname": "admin",
-        "_id": "jbzIdq"
+        "score": 103,
+        "isAdmin": false
     },
     {
         "username": "astra1",
         "password": "$2b$10$vjWFp2Sd0hwvjVmJCIQuU.J6SeUvSWipzuP09/CO0fcBsIJnhP0uq",
         "fullname": "astra astraluli",
-        "_id": "rFmy7S"
+        "_id": "rFmy7S",
+        "isAdmin": false
+    },
+    {
+        "username": "111",
+        "password": "$2b$10$cZFevYlwK50JDb2v1Fjvf.xrJPkva.Rm0QWVDtMxpn76hSPJEHfn.",
+        "fullname": "111",
+        "_id": "65NYCn",
+        "isAdmin": false
     }
 ]

@@ -70,6 +70,7 @@ async function save(userToSave) {
             users.splice(idx, 1, userToSave)
         } else {
             userToSave._id = makeId()
+            userToSave.isAdmin=false
             users.push(userToSave)
         }
         await writeJsonFile('./data/user.json', users)

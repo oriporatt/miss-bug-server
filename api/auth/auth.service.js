@@ -47,7 +47,7 @@ async function login(username, password) {
         fullname: user.fullname,
         imgUrl: user.imgUrl,
         score: user.score,
-        isAdmin: user.isAdmin,
+        isAdmin: user.isAdmin
     }
     return miniUser
 

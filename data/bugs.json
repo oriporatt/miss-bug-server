@@ -89,5 +89,17 @@
             "_id": "u101",
             "fullname": "Ori Porat"
         }
+    },
+    {
+        "title": "AstraBug",
+        "description": "Just checking",
+        "severity": 6,
+        "createdAt": 0,
+        "labels": [],
+        "_id": "RkZ5JE",
+        "creator": {
+            "_id": "rFmy7S",
+            "fullname": "astra astraluli"
+        }
     }
 ]

@@ -594,3 +594,86 @@
 17.2.2025, 19:56:51 - INFO - Example app listening on port 3000
 17.2.2025, 19:57:11 - INFO - Example app listening on port 3000
 17.2.2025, 19:57:30 - INFO - Example app listening on port 3000
+17.2.2025, 20:15:15 - INFO - newVisitBugs | ["OjZ3fK"]
+17.2.2025, 20:34:48 - ERROR - astra1
+17.2.2025, 20:34:48 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli"}
+17.2.2025, 20:34:59 - DEBUG - auth.service - signup with username: 111, fullname: 111
+17.2.2025, 20:34:59 - ERROR - 111
+17.2.2025, 20:34:59 - DEBUG - auth.route - new account created: {"username":"111","password":"$2b$10$cZFevYlwK50JDb2v1Fjvf.xrJPkva.Rm0QWVDtMxpn76hSPJEHfn.","fullname":"111","_id":"65NYCn"}
+17.2.2025, 20:34:59 - ERROR - 111
+17.2.2025, 20:34:59 - INFO - User signup: | {"_id":"65NYCn","fullname":"111"}
+17.2.2025, 20:42:12 - ERROR - astra1
+17.2.2025, 20:42:12 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli"}
+17.2.2025, 20:42:30 - INFO - newVisitBugs | ["OjZ3fK"]
+17.2.2025, 20:53:01 - INFO - Example app listening on port 3000
+17.2.2025, 20:55:37 - ERROR - admin
+17.2.2025, 20:55:37 - INFO - User login:  | {"_id":"_admin","fullname":"admin"}
+17.2.2025, 20:59:39 - INFO - Example app listening on port 3000
+17.2.2025, 21:03:22 - INFO - Example app listening on port 3000
+17.2.2025, 21:04:36 - INFO - Example app listening on port 3000
+17.2.2025, 21:04:55 - INFO - Example app listening on port 3000
+17.2.2025, 21:10:08 - ERROR - admin
+17.2.2025, 21:10:08 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:12:12 - INFO - Example app listening on port 3000
+17.2.2025, 21:12:52 - INFO - Example app listening on port 3000
+17.2.2025, 21:13:23 - INFO - Example app listening on port 3000
+17.2.2025, 21:13:34 - ERROR - admin
+17.2.2025, 21:13:34 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:13:34 - INFO - check | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:13:51 - INFO - Example app listening on port 3000
+17.2.2025, 21:16:55 - ERROR - admin
+17.2.2025, 21:16:55 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:17:19 - ERROR - astra1
+17.2.2025, 21:17:19 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:18:26 - ERROR - astra1
+17.2.2025, 21:18:26 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:18:36 - ERROR - admin
+17.2.2025, 21:18:36 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:26:55 - ERROR - astra1
+17.2.2025, 21:26:55 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:27:25 - ERROR - admin
+17.2.2025, 21:27:25 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:33:05 - ERROR - astra1
+17.2.2025, 21:33:05 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:33:15 - ERROR - admin
+17.2.2025, 21:33:15 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:33:56 - ERROR - astra1
+17.2.2025, 21:33:56 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:35:13 - ERROR - astra1
+17.2.2025, 21:35:13 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:35:20 - ERROR - admin
+17.2.2025, 21:35:20 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:55:40 - ERROR - astra1
+17.2.2025, 21:55:40 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:55:51 - ERROR - admin
+17.2.2025, 21:55:51 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 21:56:14 - ERROR - astra1
+17.2.2025, 21:56:14 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:56:40 - ERROR - ori1
+17.2.2025, 21:56:40 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101,"isAdmin":false}
+17.2.2025, 21:57:15 - ERROR - astra1
+17.2.2025, 21:57:15 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 21:57:24 - ERROR - ori1
+17.2.2025, 21:57:24 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101,"isAdmin":false}
+17.2.2025, 22:07:30 - ERROR - astra1
+17.2.2025, 22:07:30 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:12:19 - ERROR - astra1
+17.2.2025, 22:12:19 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:13:52 - ERROR - astra1
+17.2.2025, 22:13:52 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:13:55 - ERROR - astra1
+17.2.2025, 22:13:55 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:14:03 - ERROR - admin
+17.2.2025, 22:14:03 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 22:14:58 - ERROR - astra1
+17.2.2025, 22:14:58 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:15:08 - ERROR - astra1
+17.2.2025, 22:15:09 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:15:22 - ERROR - astra1
+17.2.2025, 22:15:22 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:15:38 - ERROR - astra1
+17.2.2025, 22:15:38 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:15:59 - ERROR - admin
+17.2.2025, 22:15:59 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
+17.2.2025, 22:19:46 - ERROR - astra1
+17.2.2025, 22:19:47 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
