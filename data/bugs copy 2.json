@@ -94,16 +94,5 @@
             "_id": "u101",
             "fullname": "Ori Porat"
         }
-    },
-    {
-        "title": "QQQ Page crashes on checkout",
-        "description": "The checkout page crashes unexpectedly, preventing users from completing their purchases.",
-        "severity": 8,
-        "createdAt": 1739176534083,
-        "_id": "UBQlLP",
-        "creator": {
-            "_id": "u101",
-            "fullname": "Ori Porat"
-        }
     }
 ]

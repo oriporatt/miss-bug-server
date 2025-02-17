@@ -334,3 +334,113 @@
 14.2.2025, 17:36:16 - INFO - newVisitBugs | ["OjZ3fK"]
 16.2.2025, 14:20:38 - INFO - Example app listening on port 3000
 16.2.2025, 14:26:39 - INFO - Example app listening on port 3000
+17.2.2025, 13:52:42 - INFO - Example app listening on port 3000
+17.2.2025, 13:56:40 - INFO - Example app listening on port 3000
+17.2.2025, 13:56:47 - INFO - Example app listening on port 3000
+17.2.2025, 13:56:54 - INFO - Example app listening on port 3000
+17.2.2025, 14:01:50 - INFO - Example app listening on port 3000
+17.2.2025, 14:06:16 - INFO - Example app listening on port 3000
+17.2.2025, 14:07:24 - INFO - Example app listening on port 3000
+17.2.2025, 14:08:37 - INFO - Example app listening on port 3000
+17.2.2025, 14:10:30 - INFO - Example app listening on port 3000
+17.2.2025, 14:12:26 - INFO - Example app listening on port 3000
+17.2.2025, 14:14:12 - INFO - Example app listening on port 3000
+17.2.2025, 14:15:15 - INFO - Example app listening on port 3000
+17.2.2025, 14:15:51 - DEBUG - taropori
+17.2.2025, 14:15:51 - DEBUG - taropori
+17.2.2025, 14:15:51 - INFO - User login:  | {"_id":"WaG3kl","fullname":"O Porat","score":999}
+17.2.2025, 14:15:51 - ERROR - taropori
+17.2.2025, 14:16:13 - INFO - Example app listening on port 3000
+17.2.2025, 14:16:15 - DEBUG - taropori
+17.2.2025, 14:16:15 - ERROR - taropori
+17.2.2025, 14:16:15 - INFO - User login:  | {"_id":"WaG3kl","fullname":"O Porat","score":999}
+17.2.2025, 14:17:04 - INFO - Example app listening on port 3000
+17.2.2025, 14:17:06 - ERROR - taropori
+17.2.2025, 14:17:06 - ERROR - Failed to Login NaN
+17.2.2025, 14:18:25 - INFO - Example app listening on port 3000
+17.2.2025, 14:18:29 - ERROR - taropori
+17.2.2025, 14:18:29 - INFO - User login:  | {"_id":"WaG3kl","fullname":"O Porat","score":999}
+17.2.2025, 14:23:07 - INFO - Example app listening on port 3000
+17.2.2025, 14:23:32 - INFO - Example app listening on port 3000
+17.2.2025, 14:23:37 - ERROR - taropori
+17.2.2025, 14:23:37 - INFO - false
+17.2.2025, 14:23:37 - ERROR - Failed to Login NaN
+17.2.2025, 14:24:37 - INFO - Example app listening on port 3000
+17.2.2025, 14:27:34 - INFO - Example app listening on port 3000
+17.2.2025, 14:42:59 - DEBUG - auth.service - signup with username: taropori, fullname: Ori Porat
+17.2.2025, 14:42:59 - ERROR - taropori
+17.2.2025, 14:42:59 - ERROR - Failed to signup Username already taken
+17.2.2025, 14:43:20 - ERROR - xxori
+17.2.2025, 14:43:20 - DEBUG - auth.service - signup with username: xxori, fullname: xx Ori Porat
+17.2.2025, 14:43:20 - DEBUG - auth.route - new account created: {"username":"xxori","password":"$2b$10$EWXGA4jEtmvR2bM1E7Al7O4QCyprdqiSIrbVBHh3UdRe7GVJ4fZym","fullname":"xx Ori Porat","_id":"pyaAYA"}
+17.2.2025, 14:43:20 - ERROR - xxori
+17.2.2025, 14:43:20 - INFO - User signup: | {"_id":"pyaAYA","fullname":"xx Ori Porat"}
+17.2.2025, 14:46:03 - INFO - User login:  | {"_id":"WaG3kl","fullname":"O Porat","score":999}
+17.2.2025, 14:46:03 - ERROR - taropori
+17.2.2025, 14:46:15 - ERROR - xxori
+17.2.2025, 14:46:15 - INFO - User login:  | {"_id":"pyaAYA","fullname":"xx Ori Porat"}
+17.2.2025, 14:46:39 - INFO - Example app listening on port 3000
+17.2.2025, 14:46:41 - ERROR - xxori
+17.2.2025, 14:46:41 - INFO - User login:  | {"_id":"pyaAYA","fullname":"xx Ori Porat"}
+17.2.2025, 14:46:46 - ERROR - xxori
+17.2.2025, 14:46:46 - ERROR - Failed to Login NaN
+17.2.2025, 14:46:50 - ERROR - xxori
+17.2.2025, 14:46:50 - INFO - User login:  | {"_id":"pyaAYA","fullname":"xx Ori Porat"}
+17.2.2025, 14:46:55 - INFO - Example app listening on port 3000
+17.2.2025, 14:55:05 - DEBUG - auth.service - signup with username: ori1, fullname: Ori Porat
+17.2.2025, 14:55:05 - ERROR - ori1
+17.2.2025, 14:55:05 - DEBUG - auth.route - new account created: {"username":"ori1","password":"$2b$10$fGisUq/x4fV5aBwaLL4Wy.sjF5KxLCVqdS5Bd.LmTjGF4n/JB9eZK","fullname":"Ori Porat","_id":"b8GVtJ"}
+17.2.2025, 14:55:05 - ERROR - ori1
+17.2.2025, 14:55:05 - INFO - User signup: | {"_id":"b8GVtJ","fullname":"Ori Porat"}
+17.2.2025, 14:55:39 - DEBUG - auth.service - signup with username: ori2, fullname: Ori Porat
+17.2.2025, 14:55:39 - ERROR - ori2
+17.2.2025, 14:55:40 - DEBUG - auth.route - new account created: {"username":"ori2","password":"$2b$10$W494gfuu0BYgtLZdO6ZH4u6lNjcFTuSpcRgF61OTW9CMVsu7aRsAa","fullname":"Ori Porat","_id":"lNEYId"}
+17.2.2025, 14:55:40 - ERROR - ori2
+17.2.2025, 14:55:40 - INFO - User signup: | {"_id":"lNEYId","fullname":"Ori Porat"}
+17.2.2025, 14:55:49 - DEBUG - auth.service - signup with username: ori3, fullname: Ori Porat
+17.2.2025, 14:55:49 - ERROR - ori3
+17.2.2025, 14:55:49 - DEBUG - auth.route - new account created: {"username":"ori3","password":"$2b$10$eMhhb.ehdU/6qwD2qNOUAeH5kb5MwCt5diGo4JNlOXjG7eGvmOH7u","fullname":"Ori Porat","_id":"AdBPpI"}
+17.2.2025, 14:55:49 - ERROR - ori3
+17.2.2025, 14:55:49 - INFO - User signup: | {"_id":"AdBPpI","fullname":"Ori Porat"}
+17.2.2025, 14:58:54 - INFO - User login:  | {"_id":"pyaAYA","fullname":"xx Ori Porat"}
+17.2.2025, 14:58:54 - ERROR - xxori
+17.2.2025, 14:59:11 - INFO - Example app listening on port 3000
+17.2.2025, 14:59:13 - ERROR - xxori
+17.2.2025, 14:59:13 - ERROR - Failed to Login NaN
+17.2.2025, 14:59:21 - ERROR - ori1
+17.2.2025, 14:59:21 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":999}
+17.2.2025, 15:05:35 - INFO - Example app listening on port 3000
+17.2.2025, 15:05:42 - INFO - Example app listening on port 3000
+17.2.2025, 15:05:49 - INFO - Example app listening on port 3000
+17.2.2025, 15:10:47 - INFO - Example app listening on port 3000
+17.2.2025, 15:26:43 - INFO - Example app listening on port 3000
+17.2.2025, 15:27:44 - INFO - Example app listening on port 3000
+17.2.2025, 15:27:54 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":999}
+17.2.2025, 15:29:26 - ERROR - ori1
+17.2.2025, 15:29:26 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:29:55 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:30:19 - INFO - Example app listening on port 3000
+17.2.2025, 15:30:23 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:33:05 - INFO - Example app listening on port 3000
+17.2.2025, 15:33:27 - INFO - Example app listening on port 3000
+17.2.2025, 15:35:07 - INFO - Example app listening on port 3000
+17.2.2025, 15:35:29 - INFO - Example app listening on port 3000
+17.2.2025, 15:35:36 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:43:44 - INFO - Example app listening on port 3000
+17.2.2025, 15:43:46 - INFO - Example app listening on port 3000
+17.2.2025, 15:43:49 - INFO - Example app listening on port 3000
+17.2.2025, 15:44:44 - ERROR - Couldn't remove bug DRYMDB
+17.2.2025, 15:44:44 - ERROR - loggedinUser is not defined
+17.2.2025, 15:45:12 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:45:12 - ERROR - ori1
+17.2.2025, 15:45:29 - ERROR - Couldn't remove bug DRYMDB
+17.2.2025, 15:45:29 - ERROR - loggedinUser is not defined
+17.2.2025, 15:45:55 - INFO - Example app listening on port 3000
+17.2.2025, 15:46:24 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:46:39 - ERROR - ori2
+17.2.2025, 15:46:39 - INFO - User login:  | {"_id":"u102","fullname":"Ori Porat","score":102}
+17.2.2025, 15:47:06 - ERROR - Couldn't remove bug gxtHnt
+17.2.2025, 15:47:06 - ERROR - 
+17.2.2025, 15:47:21 - ERROR - ori1
+17.2.2025, 15:47:21 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101}
+17.2.2025, 15:47:33 - ERROR - {"_id":"u101","fullname":"Ori Porat","score":101}

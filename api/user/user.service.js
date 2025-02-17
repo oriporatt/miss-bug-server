@@ -9,6 +9,7 @@ export const userService = {
     getById,
     remove,
     save,
+    getByUsername,
 }
 
 
@@ -29,6 +30,17 @@ function getById(userId) {
         return user
     } catch (err) {
         loggerService.error(`Couldn't get user ${userId}`)
+        throw err
+    }
+}
+
+async function getByUsername(username) {
+    loggerService.error(username)
+    try {
+        const user = users.find(user => user.username === username)
+        return user
+    } catch (err) {
+        loggerService.error('userService[getByUsername] : ', err)
         throw err
     }
 }
