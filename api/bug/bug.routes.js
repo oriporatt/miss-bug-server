@@ -6,10 +6,11 @@ const router = express.Router()
 
 
 router.get('/', getBugs)
-router.get('/userbugs/:userId', getUserBugs)
 router.get('/:bugId', getBug)
 router.delete('/:bugId',requireAuth, removeBug)
 router.post('/',requireAuth,addBug)
 router.put('/:bugId',requireAuth, updateBug)
+router.get('/userbugs/:userId', getUserBugs)
+
 
 export const bugRoutes = router

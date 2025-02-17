@@ -677,3 +677,16 @@
 17.2.2025, 22:15:59 - INFO - User login:  | {"_id":"_admin","fullname":"admin","isAdmin":true}
 17.2.2025, 22:19:46 - ERROR - astra1
 17.2.2025, 22:19:47 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:56:06 - INFO - Example app listening on port 3000
+17.2.2025, 22:56:24 - ERROR - astra1
+17.2.2025, 22:56:24 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 22:59:49 - ERROR - ori1
+17.2.2025, 22:59:50 - INFO - User login:  | {"_id":"u101","fullname":"Ori Porat","score":101,"isAdmin":false}
+17.2.2025, 23:13:39 - INFO - Example app listening on port 3000
+17.2.2025, 23:14:23 - INFO - Example app listening on port 3000
+17.2.2025, 23:14:40 - INFO - newVisitBugs | ["userbugs"]
+17.2.2025, 23:14:40 - ERROR - Couldn't get bug userbugs
+17.2.2025, 23:18:25 - ERROR - astra1
+17.2.2025, 23:18:25 - INFO - User login:  | {"_id":"rFmy7S","fullname":"astra astraluli","isAdmin":false}
+17.2.2025, 23:20:19 - INFO - Example app listening on port 3000
+17.2.2025, 23:20:25 - INFO - Example app listening on port 3000
